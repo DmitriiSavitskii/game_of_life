@@ -1,0 +1,20 @@
+
+
+
+void input(int matrix[STR][COL]);
+void update_matrix(int matr1[STR][COL], int matr2[STR][COL]);
+int count_neig(int matr1[STR][COL], int i, int j);
+int decision(int neigb, int cond);
+void replace(int matr2[STR][COL], int matr1[STR][COL]);
+int check(int matr1[STR][COL], int matr2[STR][COL]);
+int change_speed(char control_speed, int *flag, int time_mlsec);
+int count(int matr[STR][COL]);
+
+--- Ввод данных для матрицы
+--- Обновление матрицы и вывод в консоль
+--- Подсчет соседей клетки
+--- Состояние клетки
+--- Обмен данных матриц
+--- Сравнение матриц
+--- Изменение скорости
+--- Счетчик клеток 
